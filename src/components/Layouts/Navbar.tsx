@@ -7,7 +7,7 @@ const Navbar = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 1, duration: 1 }}
-      className="h-16 fixed w-full bg-white z-[999]"
+      className="h-16 fixed w-full bg-white z-[1]"
     >
       <nav className="w-full h-full max-w-[1230px] px-[20px] mx-auto flex justify-between items-center">
         <span className="text-3xl">iRepair</span>
